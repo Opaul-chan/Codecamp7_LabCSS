@@ -1,4 +1,6 @@
 # Codecamp7_LabCSS
+ชื่อ นางสาวโอปอล จรรโลงเสวตกุล ผู้เรียน
+
 slide 5 (review CSS) ให้สร้าง review.html แสดงเป็นตาราง 
 
 1.1 CSS syntax ประกอบด้วยอะไรบ้าง 
