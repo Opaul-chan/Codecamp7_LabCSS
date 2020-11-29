@@ -1,0 +1,145 @@
+
+<html lang="en">
+<head>
+    <style>
+
+@media only screen and (max-width: 560px) {
+            .Text{
+                grid-template-columns: auto;
+            }
+            Text > div{
+                min-width: 300px;
+            }
+            }
+
+            @media only screen and (min-width: 561px) and (max-width: 840px){
+            .Text{
+                grid-template-columns: repeat (2,auto);
+                grid-gap: 4%;
+                margin-bottom: 100px;
+            }
+            Text > div{
+                min-width: 255px;
+            }
+            }
+
+            @media only screen and (min-width: 841px) {
+            .Text{
+                grid-template-columns: repeat(3,auto);
+                grid-gap: 3%;
+            }
+            Text > div{
+                min-width: 300px;
+            }
+
+
+            }
+
+
+
+.pimclick {
+    text-align: center;
+    background: #FDEBD0 ;
+    height: 300px;
+    
+
+}
+
+.Contact{
+    background: #F1948A ;
+    display: grid; 
+    grid-row: 100px 100px 100px 100px;
+    align-items: center;
+    margin: 0px 100px  ;
+    height: 500px;
+}
+
+.item1{
+   
+    text-align: center;
+    grid-column:1/3 ;
+}
+
+.item4{
+    grid-column:1/3 ;
+
+}
+.item5{
+    grid-column:1/3 ;
+}
+.item6{
+    grid-column:1/3 ;
+
+}
+
+
+.img1{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.img2{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+.img3{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+</style>
+</head>
+
+
+
+<body>
+    <img class= "img1" src=" p.png" alt=" p" style="float: left;">
+    <img class="img2"  src="about.png " alt=" about" style="float: right;">
+
+    <div class="pimclick">
+            <h1> pimclick</h1>
+            <h2>creative digital agency </h2>
+    </div>
+    
+    
+      <div class="Contact">
+          
+         
+                <div class="item1">Contact us today </div>
+
+                 <div class="item2" >Your Name (required)
+                     <br>
+                    <input type="text">
+
+                </div>
+            
+                 <div class="item3" >Your Email (required)
+                    <br> 
+                    <input type="email"> 
+            
+                </div>
+                
+                <div  class="item4" >Subject
+                    <br>
+                    <input type="text">
+
+                </div>
+            
+                 <div class="item5" >Your Message
+                     <br>
+                     <input type="text"> 
+                </div>
+                 
+                <div class="item6"> <input type="submit">
+
+                </div>
+            
+        <img class="img3"  src="ส่งข้อความ.png" alt="ส่งข้อความ">
+       
+
+      
+</body>
+</html>
