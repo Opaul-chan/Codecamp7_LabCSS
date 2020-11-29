@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f1f1f1 ;
+    justify-content: flex-end;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 2px;
+    font-size: 14px;
+    justify-content: right;
+  }
+body{
+    background-color:white;
+}
+.wrapper{
+    width: 1170px;
+    margin: 20px auto;
+}
+nav{
+    position: absolute;
+    background: white;
+    font-size: 16px;
+}
+nav > ul{
+    position: center;
+    display: -webkit-flex ;
+    display: -moz-flex ;
+    display: -ms-flex;
+    display: -o-flex ;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin-left: 50px ;
+    padding: 4px;
+}
+nav a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav ul li{
+    color: black;
+    list-style: none;
+    transition: 0.8s ;
+}
+nav > ul > li > a{
+    padding: 15px 25px;
+}
+nav ul>li.dropdown > a::after{
+    position: relative;
+    float: right;
+    content:'' ;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+nav > ul > li:hover{
+    background: whitesmoke ;
+}
+
+nav ul .menu-area{
+    padding: 40px 40px 0px 40px;
+    background: white;
+    text-align: left;
+    border-top: 5px;
+    z-index: 1;
+    position: absolute;
+    display: -webkit-flex ;
+    display: -moz-flex ;
+    display: -ms-flex;
+    display: -o-flex ;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    top: -9999px;
+    left: 0;
+}
+nav ul li:hover ul.menu-area{
+    top: 100%;    
+}
+nav ul.menu-area ul{
+    width: 20%;
+    color:white ;
+}
+
+nav ul.menu-area h4{
+    color: black;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+nav ul.menu-area ul li{
+    display:block ;
+}
+
+nav ul.menu-area ul li a{
+    margin-top: 10px;
+    color:black;
+    text-transform: none;
+}
+nav ul.menu-area ul li a:hover{
+    color:whitesmoke;
+}
+
+p{
+    color:black;
+    font-family:Arial;
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 10px ;
+    text-align: center;
+}
