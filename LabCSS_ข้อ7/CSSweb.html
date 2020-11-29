@@ -4,31 +4,31 @@
     <style>
 
 @media only screen and (max-width: 560px) {
-            .Text{
+            .body{
                 grid-template-columns: auto;
             }
-            Text > div{
+            body > div{
                 min-width: 300px;
             }
             }
 
             @media only screen and (min-width: 561px) and (max-width: 840px){
-            .Text{
+            .body{
                 grid-template-columns: repeat (2,auto);
                 grid-gap: 4%;
                 margin-bottom: 100px;
             }
-            Text > div{
+            body > div{
                 min-width: 255px;
             }
             }
 
             @media only screen and (min-width: 841px) {
-            .Text{
+            .body{
                 grid-template-columns: repeat(3,auto);
                 grid-gap: 3%;
             }
-            Text > div{
+            body > div{
                 min-width: 300px;
             }
 
@@ -38,6 +38,7 @@
 
 
 .pimclick {
+    display: grid;
     text-align: center;
     background: #FDEBD0 ;
     height: 300px;
@@ -46,6 +47,7 @@
 }
 
 .Contact{
+    display:grid;
     background: #F1948A ;
     display: grid; 
     grid-row: 100px 100px 100px 100px;
@@ -96,6 +98,7 @@
 
 
 <body>
+
     <img class= "img1" src=" p.png" alt=" p" style="float: left;">
     <img class="img2"  src="about.png " alt=" about" style="float: right;">
 
