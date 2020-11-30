@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.text{
+        
+        animation: ex1 10s  5s infinite linear alternate;
+        color: blue;
+    
+    }   
+
+.show{
+  
+    animation: ex2 10s  5s infinite linear alternate;
+        width: 100px;
+        height: 50px;
+        display: block; 
+    
+}
+
+.position{
+    animation: ex3 10s  5s infinite linear alternate;
+    background: yellow;
+        width: 100px;
+        height: 50px;
+
+
+}
+    @keyframes ex1{
+    0%{
+        color: green;
+        
+    }
+    25%{
+        color: blue;
+    }
+    50%{
+        color:red;
+    }
+    100%{
+        color: yellow;
+    }
+}
+@keyframes ex2{
+    0%{
+        width: 100px;
+        height: 50px;
+        display: block;
+        background: blueviolet;
+    }
+    25%{
+        width: 100px;
+        height: 50px;
+        display: none; 
+    }
+    50%{
+        width: 100px;
+        height: 50px;
+        display: block; 
+        background: blueviolet;
+    }
+    100%{
+        width: 100px;
+        height: 50px;
+        display: none; 
+    }
+}
+@keyframes ex3{
+    0%{
+        background: yellow;
+        width: 100px;
+        height: 50px;
+        margin-left: 700px ;
+    
+    }
+    25%{
+        background: yellow;
+        width: 100px;
+        height: 50px;
+        margin-left: 500px ;
+    
+    }
+    50%{
+        background: yellow;
+        width: 100px;
+        height: 50px;
+        margin-left: 300px ;
+    
+    }
+    100%{
+        background: yellow;
+        width: 100px;
+        height: 50px;
+        margin-left: 100px ;
+    
+
+    }
+}
+
+
+</style>
+</head>
+
+
+<body>
+    <h1> เปลี่ยนสีตัวอักษร</h1>
+            <div class="text">Ex.เปลี่ยนสีตัวอักษร</div>
+    <h1> show and hide</h1>
+            <div class="show"></div>
+    <h1> เปลี่ยนตำแหน่ง</h1>
+            <div class="position"></div>
+</body>
+</html>
